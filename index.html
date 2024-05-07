@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=0.3">
+  <title>Real Travelling...</title>
+  <link rel="icon" href="icon.jpg">
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    a{
+      text-decoration: none;
+    }
+    header {
+      display: flex;
+      place-content: space-between;
+    }
+
+    ul {
+      display: flex;
+      gap: 10px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 0px;
+    }
+
+    li a:hover {
+      color: rgb(255, 81, 0);
+    }
+
+    .block-1 {
+      position: relative;
+    }
+
+    .info {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .text {
+      font-family: verdana;
+      font-size: 50pt;
+      color: white;
+    }
+
+    .text2 {
+      font-family: verdana;
+      font-size: 16pt;
+      opacity: .8;
+      color: white;
+    }
+
+    .search {
+      display: flex;
+      gap: 7px;
+    }
+
+    .search input[type="search"] {
+      height: 50px;
+      font-size: 15pt;
+      width: 570px;
+      border-radius: 7px;
+      outline: none;
+      border: none;
+    }
+
+    .list {
+      height: 50px;
+      border-radius: 7px;
+      font-size: 15px;
+      border: none;
+      outline: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .row{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      place-content: center;
+    }
+    .row .col{
+       display: flex;
+       flex-direction: column;
+       max-width: 280px;
+       position: relative;
+    }
+    .row .col img{
+      width: 100%;
+    }
+    .list:hover {
+      opacity: .89;
+    }
+      .row-1{
+        display:flex;
+        place-content:space-around;
+        padding:20px 10px; 
+        gap: 30px;
+      }
+    .col-1,.col-2{
+      display: flex;
+      flex-direction: column;
+    }
+    .enter:hover {
+      opacity: .8;
+    }
+    img:hover{
+      filter: brightness(60%);
+    }
+    address{
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      align-items: center;
+      font-size: 11pt;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="img/r.jpg" height="70" width="300">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <li><a href="terms.html">TERMS & CONDITIONS</a></li>
+    </ul>
+  </header>
+  <section class="block-1">
+    <video autoplay muted loop height="auto" width="100%">
+      <source src="b.mp4">
+    </video>
+    <div class="info">
+      <p class="text">Be a real traveller</p>
+      <p class="text2">Small group adventures for travellers in their 20s & 30s</p>
+      <div class="search">
+        <input type="search" placeholder="  Search Your Trip here...">
+        <select class="list">
+          <option>DURATION</option>
+          <option>UP TO 1 WEEK</option>
+          <option>UP TO 2 WEEKS</option>
+          <option>UP TO 3 WEEKS</option>
+          <option>UP TO 4 WEEKS</option>
+          <option>UP TO 5 WEEKS</option>
+        </select>
+        <a href="mytrip.html"><input type="button" value="FIND MY TRIP" class="list" style="background:#ff6347;"></a>
+      </div>
+    </div>
+    <div
+      style="text-align:center;background:black; width:100%; color:white;font-size:20pt;padding:30px 0;font-family:verdana;font-weight:bold; position:absolute; bottom: 0;">
+      WELCOME TO THE REAL TRAVELLING...!
+    </div>
+  </section>
+
+  <h3 style="margin-left:50px;">Top rated experiences</h3>
+  <p style="font-size:15pt;margin-left:50px;opacity:.5">Find an experience that has been highly rated by our travellers</p>
+  <div class="row">
+    <div class="col">
+      <a
+        href="https://www.google.com/travel/guide?q=good+travel+places+in+india&oq=good+travel+place&aqs=chrome.1.69i57j0l7.14261j0j7&sourceid=chrome&ie=UTF-8&dest_src=o&tcfs=EgsKCS9tLzAxenh4OQ&dest_mid=/m/01zxx9&sa=X&ved=2ahUKEwjtjOyTprjoAhUPyDgGHcY1BLwQ69EBKAIwAHoECBwQBg">
+        <img src="img/taj.jpg" height="300" width="400">
+        <div style="opacity:.7;">
+          <h3>Agra, Taj Mahal</h3>
+          <h4>City in Uttar Pradesh</h4>
+        
+      </a>
+      Agra is a city in northern India’s Uttar Pradesh
+      state. It's home to the iconic Taj Mahal, a
+      mausoleum built for the Mughal ruler Shah Jahan’s
+      wife, Mumtaz Mahal (who died in childbirth in 1631).
+      <br>
+      12 days from £1,199 <s> £1,399</s>
+    </div>
+      <button
+        style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute; right: 0;">Save
+        up to £200
+      </button>
+    </div>
+
+    <div class="col">
+      <a
+        href="https://www.google.com/travel/guide?q=good+travel+places+in+india&oq=good+travel+place&aqs=chrome.1.69i57j0l7.14261j0j7&sourceid=chrome&ie=UTF-8&dest_src=o&tcfs=EgoKCC9tLzA5ZjA3&dest_mid=/m/09f07&sa=X&ved=2ahUKEwjtjOyTprjoAhUPyDgGHcY1BLwQ69EBKAEwAHoECBwQBA">
+        <img src="img/delhi.jpg" height="300" width="400">
+        <div style="opacity:.7;">
+          <h2>Delhi</h2>
+          <h4>State of India</h4>
+      </a>
+      Delhi, India’s capital territory, is a massive
+      metropolitan area in the country’s north. In Old
+      Delhi, a neighborhood dating to the 1600s, stands
+      the imposing Mughal-era Red Fort, a symbol of
+      India, and the sprawling Jama Masjid mosque,
+      whose courtyard accommodates 25,000 people.
+      <br>
+      21 days from £1,385 <s>£1,629</s>
+    </div>
+
+    <button
+      style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute; right: 0;">Save
+      up to £244
+    </button>
+  </div>
+  <div class="col">
+    <a href="https://www.google.com/travel/guide?q=good+travel+places+in+india&oq=good+travel+place&aqs=chrome.1.69i57j0l7.14261j0j7&sourceid=chrome&ie=UTF-8&dest_src=o&tcfs=EgsKCS9tLzAxNjcyMg&dest_mid=/m/016722&sa=X&ved=2ahUKEwjtjOyTprjoAhUPyDgGHcY1BLwQ69EBKAMwAHoECBwQCA">
+      <img src="img/jaypur.jpg" height="300" width="400">
+      <div style="opacity:.7;">
+        <h2>Jaipur</h2>
+        <h4>City in Rajasthan</h4>
+      
+    </a>
+    Jaipur is the capital of India’s Rajasthan state.
+    It evokes the royal family that once ruled the 
+    region and that, in 1727, founded what is now called
+    the Old City, or “Pink City” for its trademark building 
+    color. At the center of its stately street grid 
+    (notable in India) stands the opulent, colonnaded
+    City Palace complex. <br>
+    7 days from £729 <s>£1,000</s>
+  </div>
+    <button
+      style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute;right:0%;">Save
+      up to £271
+    </button>
+  </div>
+</div>
+<br>
+<br>
+  <div class="row" style="place-content:space-around;padding:20px 0; background: rgb(98, 253, 253); ">
+    <div class="col-1" >
+      <h1>Win a FREE 14-day trip to India</h1>
+      <h2>Trip worth £869!</h2>
+        <p>
+          Our<strong> Real North India</strong> trip features: <br>
+          <font color="red"> *</font> Travel to 7+ colourful cities<br>
+          <font color="red"> *</font> Boutique accommodation<br>
+          <font color="red"> *</font> Culture & scenery<br>
+        </p>
+        Subscribe below to enter:
+        <div>
+          <input type="email" placeholder="  Email" name="email" autocomplete="off"
+          style="height:37px; width:270px;font-size:12pt; border-radius:7px;border:none; outline:none;">
+          <input onclick="location.href='login.html'" type="button" value="Enter" style="height:37px;width:150px; color:white; font-size:15pt;font-weight:bold;background:#e20000;border-radius:7px;border:none;outline:none;">
+        </div>
+        <a href="terms.html">
+          <font color="white"> Terms & Conditions</font>
+        </a>
+    </div>
+    <div class="col-2">
+    <img src="img/freetrip.jpg" width="470">
+    </div>
+  </div>
+
+<div class="row-1">
+  <div class="col-1">
+    <img src="img/kk.jpg" height="400" width="575">
+  </div>
+  <div class="col-2" style="font-size: 11pt;">
+    <h1>Step up your holiday game</h1>
+    <h2>Get some Real Travelling in your life.</h2>
+    <p>Built by one of the leading youth travel services in the UK, our team is here to bring you the unforgettable
+      adventures, bucket list trips and round-the-world tours you’ve been searching for.
+    </p>
+    <p>Think white sand, island hopping, golden temples, sunrise yoga, sunset safaris, campervans, cocktails and cold
+      beers. Travel with us and we guarantee you’ll get more excitement, more adventure and more Instagram likes.
+    </p>
+  </div>
+
+</div>
+
+  <h3 style="margin-left:50px;">Top offers</h3>
+  <p style="margin-left:50px;">
+    Book Today with as little as £49 deposit
+  </p>
+<div class="row">
+  <div class="col">
+    <a href="https://www.realtravelling.com/maldives-island-hopping">
+      <img src="img/sea.jpg" height="300" width="400">
+      <div style="opacity:.7;">
+        <font color="red">
+          <h2>Maldives Island Hopping</h2>
+        </font>
+    </a>
+    Explore the Maldives on a fantastic 8 day trip !<br>
+    Relax in paradise as you soak up the rays on <br>
+    golden beaches and spot sea life in magical <br>
+    underwater worlds.<br><br>
+  
+    8 days from £519<s> £649</s>
+    </div>
+  
+    <button
+      style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute;right: 0;">Save
+      up to £130
+    </button>
+  </div>
+  <div class="col">
+      <a href="https://www.realtravelling.com/costa-rica-wellness">
+        <img src="img/costa.jpg" height="300" width="400"><br>
+
+        <div style="opacity:.7;">
+          <font color="red">
+            <h2>Costa Rica Wellness</h2>
+          </font>
+      </a>
+
+      Unwind as you float away to paradise and<br>
+      tranquillity in Costa Rica. Find inner<br>
+      peace and calm on an 8 day wellness tour <br>
+      to this exotic escape alongside a small group.<br><br>
+
+      8 days from £1,104 <s>£1,299</s>
+    </div>
+    <button
+      style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute;right: 0;">Save
+      up to £195
+    </button>
+  </div>
+  <div class="col">
+
+    <a href="https://www.realtravelling.com/thailand-wellness"">
+      <img src="img/thiland.jpg" height="300" width="400"><br>
+
+      <div style="opacity:.7;">
+        <font color="red">
+          <h2>Thiland Wellness</h2>
+        </font>
+    </a>
+
+    Relax and rejuvenate on this unmissable
+    wellness experience in Thailand.<br>
+
+    9 days from £1,079 <s>£1,349</s>
+
+  </div>
+  <button
+    style="background:#ff1212;font-size:12pt;height:30px;width:fit;border:none;outline:none;position:absolute;right:0;">Save
+    up to £195</button>
+  </div>
+</div>
+
+
+  <br><br>
+  <center>
+    <address>
+
+      <img src="img/r.jpg" height="70" width="250">
+      Real Travelling Agency,
+      Travel agency in Royal Tunbridge Wells, England.<br>
+
+      <font color="red"><a href="#">© 2020 Real Travelling</a></font> 121-123 Mount Pleasant Rd, Tunbridge Wells TN1
+      1QR, United Kingdom<br>
+      Phone:-<a href="#"> +44 1892 280555</a>
+
+
+    </address>
+  </center>
+</body>
+
+</html>

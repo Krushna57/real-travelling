@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login-Form</title>
+	<link rel="icon" href="img/images1.jpg">
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-size: 16pt;
+			color: #777;
+			font-weight: 300;
+
+		}
+
+		#login {
+
+			position: relative;
+			margin: 20% auto;
+			height: 400px;
+			width: 600px;
+			background: #fff;
+			box-shadow: 0 2px 4px 5px;
+		}
+
+		.kk {
+
+			height: 400px;
+			position: absolute;
+			width: 300px;
+			padding: 40px;
+			top: 0;
+			left: 0;
+			box-sizing: border-box;
+
+		}
+
+		input[type="text"],
+		input[type="password"] {
+			display: block;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			padding: 4px;
+			width: 220px;
+			height: 35px;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid #aaa;
+			font-family: sans-serif;
+			font-weight: 400;
+			font-size: 15px;
+			transition: 0.2s ease;
+		}
+
+		input[type="submit"] {
+
+			margin-bottom: 28px;
+			width: 120px;
+			height: 32px;
+			background: #f44336;
+			border: none;
+			border-radius: 3px;
+			color: #fff;
+			font-family: mv boli;
+			font-size: 15px;
+			font-weight: 500;
+			transition: 0.2s ease;
+			cursor: pointer;
+		}
+
+
+		input[type="submit"]:hover,
+		input[type="submit"]:focus {
+			background: #ff5722;
+			transition: 0.2s ease;
+
+		}
+
+		.ks {
+			position: absolute;
+			top: 0;
+			right: 0;
+			box-sizing: border-box;
+			padding: 40;
+			width: 300px;
+			height: 400px;
+
+			font-stretch: bold;
+
+		}
+
+		.kl {
+			position: absolute;
+			top: 0;
+			right: 0;
+			box-sizing: border-box;
+			padding: 40px;
+			width: 300px;
+			height: 400px;
+			background-image: url(iphn.jpg);
+			background-size: cover;
+			background-position: center;
+
+		}
+
+
+		h1 {
+			margin: 0 0 20px 0;
+			font-weight: 300;
+			font-size: 28px;
+		}
+
+		.or {
+			color: black;
+			position: absolute;
+			top: 185px;
+			left: 280px;
+			width: 40px;
+			height: 40px;
+			background-image: url(d.jpg);
+			opacity: 100;
+			border-radius: 50%;
+			text-align: center;
+			box-shadow: 0 2px 4px;
+			line-height: 40px;
+			text-align: center;
+		}
+
+		.ks {
+			display: block;
+			margin-bottom: 40px;
+			font-size: 28px;
+			color: #fff;
+			text-align: center;
+			text-shadow: 0 2px 6px;
+		}
+
+		button {
+			font-size: 16px;
+			margin-bottom: 20px;
+			width: 220px;
+			height: 36px;
+			border: none;
+			color: #fff;
+			border-radius: 3px;
+			font-family: mv boli;
+			font-weight: 500;
+			transition: 0.2s ease;
+			cursor: pointer;
+		}
+
+		.facebook {
+			background: #32508e;
+
+		}
+
+		.twitter {
+			background: #55acee;
+		}
+
+		.google {
+			background: #dd4b39;
+		}
+
+
+
+
+		ul {
+			float: right;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		li {
+			float: left;
+
+		}
+
+		li a {
+			font-weight: bold;
+			font-size: 15pt;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 15px;
+			text-decoration: none;
+			border-radius: 0px;
+		}
+
+		li a:hover {
+			background-color: #cdcdcd;
+			transition: .5s ease;
+			color: black;
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+	<img src="img/r.jpg" height="70" width="300">
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="contact.html">CONTACT US</a></li>
+		<li><a href="terms.html">TERMS & CONDITIONS</a></li>
+	</ul>
+	<hr>
+
+
+
+
+
+
+	<div id="login">
+		<div class="kk">
+
+			<h1>Sign Up</h1>
+			<form autocomplete="off">
+				<input type="text" name="username" placeholder="Username">
+				<input type="text" name="email" placeholder="Email">
+				<input type="password" name="password" placeholder="Password">
+				<input type="password" name="password2" placeholder="Conform Password">
+
+				<input type="submit" value="SIGN UP">
+
+		</div>
+
+
+		<div class="kl">
+			<img src="img/download1.png"
+				style="height:100px; border-radius:150px; margin-top:-300px; margin-left:-86px;">
+
+			<span class="ks"><br>
+				<font color="#4b0082">Sign in with<br>Social Network</font>
+			</span><br><br><br><br>
+			<button class="facebook">Log in with Facebook</button>
+			<button class="twitter">Log in with Twitter</button>
+			<button class="google">Log in with Google</button>
+
+		</div>
+		<div class="or">OR</div>
+	</div>
+	</form>
+
+
+	<hr>
+	<center>
+		<address>
+
+			<img src="img/r.jpg" height="70" width="250"><br><br>
+			Real Travelling Agency,<br>
+			Travel agency in Royal Tunbridge Wells, England.<br>
+
+			<font color="red"><a href="#">© 2020 Real Travelling</a></font> 121-123 Mount Pleasant Rd, Tunbridge Wells
+			TN1 1QR, United Kingdom<br>
+			Phone:-<a href="#"> +44 1892 280555</a>
+
+
+		</address>
+	</center>
+
+
+
+
+</body>
+
+</html>
